@@ -554,6 +554,9 @@ dd.option {
 	font-size: $post-content-font-size;
 	line-height: $post-content-line-height;
 	overflow-x: auto;
+	border-top: 1px solid #e7e7e7; // Lexikos
+	padding-top: 1em; // Lexikos
+	padding-bottom: .5em; // Lexikos
 }
 
 .postbody img.postimage {
