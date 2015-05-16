@@ -233,8 +233,8 @@ li.header dl.icon dt, li.header dl.icon dd {
 li.header dl.icon dt .list-inner {
 	// Tweak for headers alignment when folder icon used
 	.forabg & {
-		padding-left: 0;
-		padding-right: 50px;
+		margin-left: 0; // Lexikos: Changed padding to margin
+		margin-right: 50px; // as above
 	}
 }
 
@@ -250,7 +250,7 @@ dl.icon dt {
 }
 
 dl.icon dt .list-inner {
-	padding-left: 55px;					// Space for folder icon
+	margin-left: 55px;					// Space for folder icon  // Lexikos: Changed padding to margin
 	position: relative;
 	padding-top: 5px;
 	padding-bottom: 5px;

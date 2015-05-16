@@ -407,8 +407,8 @@ li.breadcrumbs span:first-child > a {
 
 .rtl .forabg li.header dl.icon dt .list-inner {
 	/* Tweak for headers alignment when folder icon used */
-	padding-right: 0;
-	padding-left: 50px;
+	margin-right: 0; // Lexikos: Changed padding to margin
+	margin-left: 50px; // as above
 }
 
 .rtl dl.icon dt {
