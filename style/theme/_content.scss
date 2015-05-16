@@ -1115,7 +1115,7 @@ dd.profile-contact {
 
 .online-ribbon {
 	display: block;
-	width: 70px;
+	width: 160px; // Lexikos: was 70px
 	height: 70px;
 	position: absolute;
 	overflow: hidden;
@@ -1138,11 +1138,11 @@ dd.profile-contact {
 		height: 18px;
 		text-align: center;
 		position: absolute;
-		top: 17px;
+		top: 10px; // Lexikos: was 17px
 		white-space: nowrap;
-		#{$profile-side}: -25px;
+		#{$profile-side}: 92px; // Lexikos: was -25px
 
-		@if $profile-side == left {
+		@if $profile-side != left { // Lexikos: reversed condition
 			-webkit-transform: rotate(-45deg);
 			-ms-transform: rotate(-45deg);
 			transform: rotate(-45deg);
@@ -1181,13 +1181,14 @@ dd.profile-contact {
 	z-index: 2;
 }
 
-.no-avatar .avatar-container {
-	display: block;
-	width: 92px;
-	height: 92px;
-	background: transparent none 50% 50% no-repeat;
-	background-size: cover;
-}
+// Lexikos: disabled this
+//.no-avatar .avatar-container {
+//	display: block;
+//	width: 92px;
+//	height: 92px;
+//	background: transparent none 50% 50% no-repeat;
+//	background-size: cover;
+//}
 
 // Profile used on view-profile
 .profile-avatar img {

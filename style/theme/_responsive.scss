@@ -550,6 +550,17 @@ fieldset.polls dd.resultbar, fieldset.polls dd.poll_option_percent {
 		top: 8px;
 		white-space: nowrap;
 		#{$profile-side}: -12px;
+		
+		@if $profile-side == left { // Lexikos: added this block to reverse the rotation
+			-webkit-transform: rotate(-45deg);
+			-ms-transform: rotate(-45deg);
+			transform: rotate(-45deg);
+		}
+		@else {
+			-webkit-transform: rotate(45deg);
+			-ms-transform: rotate(45deg);
+			transform: rotate(45deg);
+		}
 
 		.rtl & {
 			#{$profile-side}: auto;

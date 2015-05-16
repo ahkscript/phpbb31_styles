@@ -801,12 +801,13 @@ dd.profile-warnings {
 	color: #BC2A4D;
 }
 
-.no-avatar .avatar-container {
-	background-image: url("./images/no_avatar.png");
-	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 1.5dppx) {
-		background-image: url("./images/no_avatar_hd.png");
-	}
-}
+// Lexikos: disabled this
+//.no-avatar .avatar-container {
+//	background-image: url("./images/no_avatar.png");
+//	@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 1.5dppx) {
+//		background-image: url("./images/no_avatar_hd.png");
+//	}
+//}
 
 .postbody .content::-webkit-scrollbar, #topicreview::-webkit-scrollbar, #post_details::-webkit-scrollbar, .codebox code::-webkit-scrollbar, .attachbox dd::-webkit-scrollbar, .attach-image::-webkit-scrollbar, .dropdown-extended ul::-webkit-scrollbar {
 	background: rgba(0, 0, 0, .1);
