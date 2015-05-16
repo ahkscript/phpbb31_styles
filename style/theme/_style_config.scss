@@ -110,7 +110,7 @@ $content-background:					#e0e0e0;	// Page inside content wrapper
 $content-border-color:					#e0e0e0;	// Border color for content wrapper
 
 // Primary colors
-$primary-color:							#1fa67a;	// Main color, used for links and stuff
+$primary-color:							#3F627F;	// Main color, used for links and stuff
 $secondary-color:						#d06d3c;	// Secondary color, usually in red - yellow range
 $overlay-color:							$white-color;	// Text on top of sections that use colorful background.
 $block-background:						#f4f4f4;	// Background of blocks
@@ -120,7 +120,7 @@ $block-background-reported:				#f5ede9;	// Background for reported posts
 $text-color:							#141414;	// Text color
 $bold-text-color:						$black-color;	// Text color with higher contrast to background. #000 or #fff
 $post-text-color:						$text-color;	// Text inside posts
-$link-color:							$primary-color;	// Links
+$link-color:							#306A99;	// Links
 $link-hover-color:						$secondary-color;	// Links, hover state
 $muted-color:							mix($black-color, $content-background, 40%);	// Gray color
 $faint-color:							mix($black-color, $content-background, 30%);	// Gray color
