@@ -846,7 +846,8 @@ blockquote .codebox {
 	max-height: 200px;
 	white-space: normal;
 	padding-top: 5px;
-	font-family: Monaco, "Andale Mono","Courier New", Courier, mono;
+	padding-left: 5px; // Lexikos: added this line and Consolas below
+	font-family: Consolas, Monaco, "Andale Mono","Courier New", Courier, mono;
 	font-size: $post-code-font-size;
 	line-height: $post-code-line-height;
 	margin: 2px 0;

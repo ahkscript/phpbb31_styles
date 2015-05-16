@@ -82,6 +82,8 @@ $post-signature-font-size:				$font-size + 1px;
 $post-quote-font-size:					$post-content-font-size - 1px;
 $post-code-font-size:					$post-content-font-size - 1px;
 
+$post-code-line-height:					17px;
+
 $post-block-title-font-size:			$post-quote-font-size;	// Quote title, code title
 $post-block-title-line-height:			1.6;
 $post-block-title-font-family:			$post-content-font-family;
@@ -263,7 +265,7 @@ $bbcode-heading-text:					#666;
 @function code-color($hue) {
 	@return hsl($hue, saturation($primary-color), lightness($primary-color));
 }
-$bbcode-code-color:						code-color(128deg);
+$bbcode-code-color:						black; //code-color(128deg);
 
 // Do not edit few lines below
 $post-side:								if($profile-side == left, right, left);
