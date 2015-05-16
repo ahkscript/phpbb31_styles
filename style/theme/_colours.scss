@@ -1515,7 +1515,7 @@ ul.linklist li.responsive-menu a.responsive-menu-link:hover:before, ul.linklist 
 
 	&.dropdown-notification:hover {
 		background-color: $dropdown-notification-hover-bg;
-		color: $dropdown-notification-color;
+		color: $link-hover-color; // Lexikos
 		&, .panel-container & {
 			border-top-color: lighten($dropdown-notification-hover-bg, 10%);
 			border-bottom-color: darken($dropdown-notification-hover-bg, 10%);

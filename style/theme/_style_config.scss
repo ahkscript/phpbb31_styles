@@ -192,13 +192,13 @@ $dropdown-heading-link-hover-color:		$overlay-color;
 $forum-description-color:				$overlay-color;
 $forum-description-bg:					mix($black-color, $block-background, 75%);
 
-// Notifications
-$notification-unread-bg:				mix($content-background, $rules-color, 90%);
-$notification-unread-color:				$rules-color;
-$notification-unread-strong-color:		desaturate(if(lightness($notification-unread-color) < 50%, darken($notification-unread-color, 30%), lighten($notification-unread-color, 30%)), 100%);
+// Notifications -- tweaked by Lexikos
+$notification-unread-bg:				white; //mix($content-background, $rules-color, 90%);
+$notification-unread-color:				$link-color;
+$notification-unread-strong-color:		black; //desaturate(if(lightness($notification-unread-color) < 50%, darken($notification-unread-color, 30%), lighten($notification-unread-color, 30%)), 100%);
 
 $dropdown-notification-bg:				$block-background;
-$dropdown-notification-hover-bg:		$block-background2;
+$dropdown-notification-hover-bg:		mix($notification-unread-bg, $dropdown-notification-bg); //$block-background2;
 $dropdown-notification-color:			$link-color;
 $dropdown-notification-strong-color:	desaturate(if(lightness($dropdown-notification-color) < 50%, darken($dropdown-notification-color, 30%), lighten($dropdown-notification-color, 30%)), 100%);
 
