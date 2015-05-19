@@ -218,6 +218,10 @@ hr {
 	color: $text-color;
 }
 
+.post:target {
+	border-left: 3px solid $secondary-color;
+}
+
 .post:target .content {
 	color: $bold-text-color;
 }
