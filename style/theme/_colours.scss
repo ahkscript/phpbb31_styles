@@ -582,7 +582,7 @@ li.row:hover dd {
 }
 
 // Unread forum/topic
-.icon-link + .list-inner > a.forumtitle,
+.icon_topic_newest + a.forumtitle,
 .pm_read .topictitle,
 a.subforum.unread {
 	color: $secondary-color;
