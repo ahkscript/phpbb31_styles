@@ -276,7 +276,8 @@ ul.navlinks {
 // ----------------------
 .forumtitle {
 	.forum_unread &,
-	.forum_unread_locked & {
+	.forum_unread_locked &,
+	.forum_unread_subforum & {
 		color: $link-hover-color;
 	}
 }
