@@ -1841,7 +1841,7 @@ function ahkscript_tweaks() {
 	$('.profile-joined').each(function() {
 		var pj = $(this);
 		var label = pj.children('strong').remove();
-		pj.text(pj.text().replace(/, \d\d:\d\d(?: [ap]m)?/, '')).prepend(label);
+		pj.text(pj.text().replace(/\w{3}(?= \w{3}\b)|,? \d?\d:\d\d(?: [ap]m)?/g, '')).prepend(label);
 	});
 
 }
