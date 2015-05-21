@@ -263,7 +263,7 @@
 		<!-- ENDIF -->
 
 			<!-- EVENT viewtopic_body_postrow_post_details_before -->
-			<p class="author"><!-- IF S_IS_BOT -->{postrow.MINI_POST_IMG}<!-- ELSE --><a href="{postrow.U_MINI_POST}">{postrow.MINI_POST_IMG}</a><!-- ENDIF --><span class="responsive-hide">{L_POST_BY_AUTHOR} <strong>{postrow.POST_AUTHOR_FULL}</strong> &raquo; </span>{postrow.POST_DATE} </p>
+			<p class="author"><!-- IF S_IS_BOT -->{postrow.POST_DATE}<!-- ELSE --><a href="{postrow.U_MINI_POST}">{postrow.POST_DATE}</a><!-- ENDIF --></p>
 			<!-- EVENT viewtopic_body_postrow_post_details_after -->
 
 			<!-- IF postrow.S_POST_UNAPPROVED -->
