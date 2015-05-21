@@ -1789,6 +1789,9 @@ jQuery(function($) {
 	// Parse body
 	parseDocument($('body'));
 
+	// Apply ahkscript.org tweaks.
+	ahkscript_tweaks();
+
 	// Check responsive navigation
 	checkNavigation(true);
 
@@ -1822,3 +1825,23 @@ jQuery(function($) {
 		}
 	});
 });
+
+
+function ahkscript_tweaks() {
+
+	// Hide redundant titles (assumes any title beginning with 'Re: ' was auto-generated).
+	$('.postbody h3').each(function() {
+		var t = $(this);
+		if (t.hasClass('first') || t.text().substr(0, 4) == 'Re: ') {
+			t.fadeOut();
+		}
+	});
+
+	// Remove time of registration.
+	$('.profile-joined').each(function() {
+		var pj = $(this);
+		var label = pj.children('strong').remove();
+		pj.text(pj.text().replace(/, \d\d:\d\d(?: [ap]m)?/, '')).prepend(label);
+	});
+
+}
