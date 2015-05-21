@@ -522,7 +522,7 @@ dd.option {
 
 .postbody h3 {
 	// Postbody requires a different h3 format - so change it here
-	float: left;
+	display: inline-block;
 	font-size: $post-title-font-size;
 	padding: 2px 0 0 0;
 	margin-top: 0 !important;
@@ -538,16 +538,6 @@ dd.option {
 
 .postbody h3 img {
 	vertical-align: bottom;
-}
-
-.has-profile .postbody h3 {
-	// If there is a post-profile, we position the post-buttons differently
-	float: none !important;
-	margin-right: 180px;
-	.rtl & {
-		margin-right: 0;
-		margin-left: 180px;
-	}
 }
 
 .postbody .content {
@@ -684,12 +674,19 @@ dl.faq dt {
 
 // Post author
 p.author {
-	margin-bottom: 0.3em;
-	padding: 0 0 5px 0;
+	margin: 2px .7em .3em 0;
 	font-family: $font-family;
 	font-size: $font-size;
-	line-height: $line-height;
-	clear: both;
+	line-height: 20px;
+	float: right;
+}
+
+.pm p.author {
+    float: none;
+}
+
+p.author .responsive-hide {
+	display: none;
 }
 
 // Post signature

@@ -336,32 +336,9 @@ ul.linklist.bulletin > li.small-icon:before {
 	float: right;
 	list-style: none;
 	margin-top: 2px;
+	margin-bottom: 0.3em;
 	.rtl & {
 		float: left;
-	}
-}
-
-.has-profile .post-buttons {
-	float: none;
-	position: absolute;
-	margin: 0;
-	top: 5px;
-
-	@if $profile-side == left {
-		right: 0;
-		.rtl & {
-			left: 0;
-		}
-	}
-	@else {
-		right: $post-margin;
-		.rtl & {
-			left: $post-margin;
-		}
-	}
-
-	.rtl & {
-		right: auto;
 	}
 }
 
