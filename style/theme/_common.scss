@@ -1869,6 +1869,7 @@ $post-notice-font-size:		$font-size + 1px;
 
 p.post-notice {
 	position: relative;
+	clear: both;
 	padding: 5px;
 	padding-left: 26px;
 	min-height: 14px;
