@@ -250,7 +250,9 @@ ol ol ul, ol ul ul, ul ol ul, ul ul ul {
 .logo {
 	@if $show-logo == true {
 		display: inline-block; // Lexikos: Changed block to inline-block.
-		min-height: 98px; // Lexikos: Prevents jumping as the image loads.
+		@media (min-width:517px) { // joedf: Prevents weird bottom space on mobile
+			min-height: 98px; // Lexikos: Prevents jumping as the image loads.
+		}
 		box-sizing: border-box;
 		max-width: 100%;
 		@if $center-logo == true {
