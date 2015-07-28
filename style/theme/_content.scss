@@ -212,7 +212,7 @@ li.header dt {
 	.forabg & .list-inner {
 		margin: 0;
 		width: auto;
-		float: none;
+		/* float: none; */
 	}
 }
 
@@ -222,7 +222,7 @@ li.header dd {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	.forabg & {
-		display: none;
+		/* display: none; */
 	}
 }
 
