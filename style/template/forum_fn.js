@@ -1832,6 +1832,9 @@ function ahkscript_tweaks() {
 	// Hide redundant titles (assumes any title beginning with 'Re: ' was auto-generated).
 	$('.postbody h3').each(function() {
 		var t = $(this);
+		// Skip if it is marked as the "Answer post".
+		if (this.contains(document.getElementsByClassName('icon_solved_post')[0]))
+			return;
 		if (t.hasClass('first') || t.text().substr(0, 4) == 'Re: ') {
 			t.fadeOut();
 		}
