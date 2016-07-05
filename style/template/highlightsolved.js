@@ -9,7 +9,7 @@
 // timestamp 15:11 2016/06/24
 // ==/UserScript==
 if (document.contains(document.getElementsByClassName('icon_solved_post') [0])) {
-  window.onload = function () {
+  //window.onload = function () {
     p = document.getElementsByClassName('postbody');
     n = p.length;
     for (i = 0; i < n; i++) {
@@ -22,5 +22,5 @@ if (document.contains(document.getElementsByClassName('icon_solved_post') [0])) 
         break;
       }
     }
-  }
+  //}
 }
