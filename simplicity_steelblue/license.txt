@@ -1,33 +1,3 @@
-Simplicity For Phpbb 3.2
-=============================
-
-Style for phpBB 3.2
-
-Requirements:
-
-- phpBB 3.2.2
-- prosilver
-
-Style come with 7 color variations :
-- Simplicity (default)
-- Simplicity Aqua
-- Simplicity Blue
-- Simplicity Dark Blue
-- Simplicity Light Blue
-- Simplicity Steel Blue
-- Simplicity Gray
-
-How to install a color declination
-The color variations for Simplicity are available as inherited styles.
-
-Prerequisites
-To install a color variation, you must first install the Simplicity style.
-
-## Download
-https://github.com/MrGabatt/SimplicityForPhpbb32/archive/master.zip
-
-
-## License
 IMPORTANT: This license does not apply to files in directory theme/fonts/
 
 Files in those directories have their own licenses, see license.txt in respective
@@ -61,8 +31,3 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 The views and conclusions contained in the software and documentation are those
 of the authors and should not be interpreted as representing official policies, 
 either expressed or implied, of the FreeBSD Project.
-
-## Autor
-[Arty](https://www.artodia.com)
-
-Ported phpBB 3.2.x version MrGabatt
