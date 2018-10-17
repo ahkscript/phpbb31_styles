@@ -1,8 +1,7 @@
 Simplicity For Phpbb 3.2
 =============================
 
-Style for phpBB 3.2 updated by Gabriel Fischer
-see: https://github.com/MrGabatt/SimplicityForPhpBB32
+Style for phpBB 3.2 updated by Gabriel Fischer (https://github.com/MrGabatt/SimplicityForPhpBB32)  
   
 Requirements:
 
