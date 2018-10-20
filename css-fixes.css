@@ -1,0 +1,31 @@
+/* joedf css quick fixes */
+ i.icon {
+    font-family:FontAwesome !important;
+    display: inline-block;
+    width: 1.5em;
+}
+.dropdown, .dropdown-trigger > .caret {
+    display: none;
+}
+.pagination li a {
+    height: auto;
+}
+.arrow.next .sr-only, .arrow.previous .sr-only {
+    display: none;
+}
+.format-buttons .button {
+    height: auto !important;
+    line-height: 16px !important;
+    font-size: 12px !important;
+}
+.topiclist dl.row-item {
+    background-repeat: no-repeat;
+    background-position-x: 4px;
+}
+.topiclist .list-inner {
+    display: inline-block;
+    margin-left: 40px;
+}
+.codebox code {
+    white-space: pre !important;
+}
